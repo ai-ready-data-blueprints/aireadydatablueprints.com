@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Samples - AI Ready Data Blueprints</title>
+    <meta name="description" content="Access GitHub repositories with code samples, examples, and implementations from AI Ready Data Blueprints book.">
+    
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" data-book-info="title">AI Ready Data Blueprints</a>
+            </div>
+            
+            <nav class="header__nav">
+                <ul class="navigation">
+                    <li><a href="index.html" class="navigation__link">Home</a></li>
+                    <li><a href="how-to-buy.html" class="navigation__link">How to Buy</a></li>
+                    <li><a href="code-samples.html" class="navigation__link">Code Samples</a></li>
+                    <li><a href="download-blueprints.html" class="navigation__link">Download Blueprints</a></li>
+                    <li><a href="contact-authors.html" class="navigation__link">Contact Authors</a></li>
+                    <li><a href="request-engagement.html" class="navigation__link">Request Engagement</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__actions">
+                <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+            </div>
+        </div>
+        
+        <nav class="mobile-menu">
+            <ul class="navigation">
+                <li><a href="index.html" class="navigation__link">Home</a></li>
+                <li><a href="how-to-buy.html" class="navigation__link">How to Buy</a></li>
+                <li><a href="code-samples.html" class="navigation__link">Code Samples</a></li>
+                <li><a href="download-blueprints.html" class="navigation__link">Download Blueprints</a></li>
+                <li><a href="contact-authors.html" class="navigation__link">Contact Authors</a></li>
+                <li><a href="request-engagement.html" class="navigation__link">Request Engagement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h1>Code Samples</h1>
+            <p class="hero__subtitle">GitHub repositories with practical implementations</p>
+
+            <div class="grid grid--2">
+                <div class="card">
+                    <h2 class="card__title">Data Pipeline Blueprints</h2>
+                    <div class="card__content">
+                        <p>Complete implementations of real-time and batch data processing pipelines using AWS services.</p>
+                        <ul>
+                            <li>Kinesis Data Streams examples</li>
+                            <li>Lambda processing functions</li>
+                            <li>Glue ETL jobs</li>
+                            <li>Step Functions orchestration</li>
+                        </ul>
+                    </div>
+                    <div class="card__actions">
+                        <a href="https://github.com/ai-ready-data-blueprints/data-pipelines" class="btn btn--primary">View Repository</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="card__title">Data Lake Architecture</h2>
+                    <div class="card__content">
+                        <p>Infrastructure as Code templates for building scalable data lakes and lakehouses.</p>
+                        <ul>
+                            <li>CloudFormation templates</li>
+                            <li>Terraform modules</li>
+                            <li>S3 bucket configurations</li>
+                            <li>Lake Formation setup</li>
+                        </ul>
+                    </div>
+                    <div class="card__actions">
+                        <a href="https://github.com/ai-ready-data-blueprints/data-lake" class="btn btn--primary">View Repository</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="card__title">Feature Store Implementation</h2>
+                    <div class="card__content">
+                        <p>End-to-end feature store implementation using SageMaker Feature Store and related services.</p>
+                        <ul>
+                            <li>Feature engineering pipelines</li>
+                            <li>Online/offline store setup</li>
+                            <li>Feature serving APIs</li>
+                            <li>Data quality monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="card__actions">
+                        <a href="https://github.com/ai-ready-data-blueprints/feature-store" class="btn btn--primary">View Repository</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="card__title">ML Data Preparation</h2>
+                    <div class="card__content">
+                        <p>Data preprocessing and preparation workflows optimized for machine learning workloads.</p>
+                        <ul>
+                            <li>Data validation frameworks</li>
+                            <li>Feature transformation pipelines</li>
+                            <li>Data versioning strategies</li>
+                            <li>Quality monitoring dashboards</li>
+                        </ul>
+                    </div>
+                    <div class="card__actions">
+                        <a href="https://github.com/ai-ready-data-blueprints/ml-data-prep" class="btn btn--primary">View Repository</a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="card">
+                <h2 class="card__title">Getting Started</h2>
+                <div class="card__content">
+                    <h3>Prerequisites</h3>
+                    <ul>
+                        <li>AWS Account with appropriate permissions</li>
+                        <li>AWS CLI configured</li>
+                        <li>Python 3.8+ or Node.js 14+</li>
+                        <li>Terraform or AWS CDK (for infrastructure examples)</li>
+                    </ul>
+
+                    <h3>Installation</h3>
+                    <p>Each repository includes detailed setup instructions. Generally, you'll need to:</p>
+                    <ol>
+                        <li>Clone the repository</li>
+                        <li>Install dependencies</li>
+                        <li>Configure AWS credentials</li>
+                        <li>Deploy infrastructure (if applicable)</li>
+                        <li>Run the examples</li>
+                    </ol>
+
+                    <h3>Support</h3>
+                    <p>For questions about the code samples, please:</p>
+                    <ul>
+                        <li>Check the repository README files</li>
+                        <li>Review existing GitHub issues</li>
+                        <li>Create a new issue if needed</li>
+                        <li>Contact the authors for complex questions</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p>&copy; 2025 <span data-book-info="title">AI Ready Data Blueprints</span>. Published by <span data-book-info="publisher">O'Reilly Media</span>.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
